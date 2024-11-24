@@ -1,5 +1,6 @@
 package services;
 
+
 import fr.univ.lorraine.ufr.mim.m2.gi.mysurvey.models.Participant;
 import fr.univ.lorraine.ufr.mim.m2.gi.mysurvey.repositories.ParticipantRepository;
 import fr.univ.lorraine.ufr.mim.m2.gi.mysurvey.services.ParticipantService;
@@ -25,7 +26,7 @@ class ParticipantServiceTest {
 
   @BeforeEach
   void setUp() {
-    MockitoAnnotations.openMocks(this);
+    MockitoAnnotations.initMocks(this);
   }
 
   @Test
